@@ -14,4 +14,3 @@ def key_for_min_value(name_hash)
   end
   name_hash.index(min)
 end
-biding.pry
