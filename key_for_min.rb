@@ -10,7 +10,7 @@ def key_for_min_value(name_hash)
     name_hash.collect do |item, number|
       binding.pry
       if min > number
-        
+
         min = number
       end
     end
