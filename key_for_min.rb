@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   min = 0
   if name_hash.empty?
-    return nil
+    nil
   else
     name_hash.each do |item, number|
       if min > number
