@@ -8,10 +8,10 @@ def key_for_min_value(name_hash)
   else
     name_hash.collect do |item, number|
       if min > number
+        biding.pry
         min = number
       end
     end
-    min
   end
   name_hash.index(min)
 end
